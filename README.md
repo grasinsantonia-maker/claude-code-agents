@@ -30,7 +30,7 @@ A collection of 17 custom agents for [Claude Code](https://claude.ai/claude-code
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/claude-code-agents.git
+git clone https://github.com/grasinsantonia-maker/claude-code-agents.git
 
 # Copy agents to Claude Code directory
 cp claude-code-agents/agents/*.md ~/.claude/agents/
@@ -39,7 +39,7 @@ cp claude-code-agents/agents/*.md ~/.claude/agents/
 ### Option 2: Symlink for easy updates
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-code-agents.git
+git clone https://github.com/grasinsantonia-maker/claude-code-agents.git
 cd claude-code-agents
 ln -sf $(pwd)/agents/*.md ~/.claude/agents/
 ```
